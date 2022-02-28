@@ -6,6 +6,6 @@ def create_app(config):
 
     @app.route('/index')
     def index():
-        return 'Hello, World I am happy to be here!'
+        return 'Hello Devops, World I am happy to be here!'
 
     return app
