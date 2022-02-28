@@ -6,6 +6,6 @@ def create_app(config):
 
     @app.route('/index')
     def index():
-        return 'Hello, World!'
+        return 'Hello, World I am Malcolm!'
 
     return app
